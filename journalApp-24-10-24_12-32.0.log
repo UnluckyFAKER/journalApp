@@ -1,0 +1,6 @@
+24-10-24 12:32:56.292 [http-nio-8081-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /journal/public/heath-check 
+24-10-24 12:32:56.356 [http-nio-8081-exec-10] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Authenticated user 
+24-10-24 12:32:56.357 [http-nio-8081-exec-10] DEBUG o.s.s.w.a.w.BasicAuthenticationFilter - Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=Moulik, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN, ROLE_USER]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[ROLE_ADMIN, ROLE_USER]] 
+24-10-24 12:32:56.357 [http-nio-8081-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /journal/public/heath-check 
+24-10-24 12:32:56.360 [http-nio-8081-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error 
+24-10-24 12:32:56.360 [http-nio-8081-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /error 

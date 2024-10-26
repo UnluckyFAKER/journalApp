@@ -1,0 +1,7 @@
+24-10-22 12:50:03.792 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+24-10-22 12:50:03.802 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+24-10-22 12:50:03.804 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms 
+24-10-22 12:50:03.831 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing POST /public/signup 
+24-10-22 12:50:03.843 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured POST /public/signup 
+24-10-22 12:50:04.146 [http-nio-8081-exec-2] ERROR c.m.journalApp.service.UserService - Same user 
+24-10-22 12:50:04.164 [http-nio-8081-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext 

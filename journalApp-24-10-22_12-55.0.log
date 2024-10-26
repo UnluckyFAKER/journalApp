@@ -1,0 +1,30 @@
+24-10-22 12:55:15.964 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing POST /public/signup 
+24-10-22 12:55:15.966 [http-nio-8081-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured POST /public/signup 
+24-10-22 12:55:16.030 [http-nio-8081-exec-4] INFO  c.m.journalApp.service.UserService - Good Work 
+24-10-22 12:55:16.030 [http-nio-8081-exec-4] ERROR c.m.journalApp.service.UserService - Same user 
+24-10-22 12:55:16.030 [http-nio-8081-exec-4] WARN  c.m.journalApp.service.UserService - Same user 
+24-10-22 12:55:16.030 [http-nio-8081-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext 
+24-10-22 12:55:17.005 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing POST /public/signup 
+24-10-22 12:55:17.006 [http-nio-8081-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured POST /public/signup 
+24-10-22 12:55:17.070 [http-nio-8081-exec-6] INFO  c.m.journalApp.service.UserService - Good Work 
+24-10-22 12:55:17.070 [http-nio-8081-exec-6] ERROR c.m.journalApp.service.UserService - Same user 
+24-10-22 12:55:17.070 [http-nio-8081-exec-6] WARN  c.m.journalApp.service.UserService - Same user 
+24-10-22 12:55:17.071 [http-nio-8081-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext 
+24-10-22 12:55:17.943 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing POST /public/signup 
+24-10-22 12:55:17.943 [http-nio-8081-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured POST /public/signup 
+24-10-22 12:55:18.007 [http-nio-8081-exec-8] INFO  c.m.journalApp.service.UserService - Good Work 
+24-10-22 12:55:18.007 [http-nio-8081-exec-8] ERROR c.m.journalApp.service.UserService - Same user 
+24-10-22 12:55:18.007 [http-nio-8081-exec-8] WARN  c.m.journalApp.service.UserService - Same user 
+24-10-22 12:55:18.007 [http-nio-8081-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext 
+24-10-22 12:55:18.900 [http-nio-8081-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing POST /public/signup 
+24-10-22 12:55:18.900 [http-nio-8081-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured POST /public/signup 
+24-10-22 12:55:18.965 [http-nio-8081-exec-10] INFO  c.m.journalApp.service.UserService - Good Work 
+24-10-22 12:55:18.965 [http-nio-8081-exec-10] ERROR c.m.journalApp.service.UserService - Same user 
+24-10-22 12:55:18.965 [http-nio-8081-exec-10] WARN  c.m.journalApp.service.UserService - Same user 
+24-10-22 12:55:18.966 [http-nio-8081-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext 
+24-10-22 12:55:19.897 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing POST /public/signup 
+24-10-22 12:55:19.898 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured POST /public/signup 
+24-10-22 12:55:19.962 [http-nio-8081-exec-1] INFO  c.m.journalApp.service.UserService - Good Work 
+24-10-22 12:55:19.963 [http-nio-8081-exec-1] ERROR c.m.journalApp.service.UserService - Same user 
+24-10-22 12:55:19.963 [http-nio-8081-exec-1] WARN  c.m.journalApp.service.UserService - Same user 
+24-10-22 12:55:19.963 [http-nio-8081-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext 

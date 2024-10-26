@@ -1,0 +1,12 @@
+24-10-24 12:33:18.694 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /journal/public/heath-check 
+24-10-24 12:33:18.757 [http-nio-8081-exec-1] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Authenticated user 
+24-10-24 12:33:18.757 [http-nio-8081-exec-1] DEBUG o.s.s.w.a.w.BasicAuthenticationFilter - Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=Moulik, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN, ROLE_USER]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[ROLE_ADMIN, ROLE_USER]] 
+24-10-24 12:33:18.758 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /journal/public/heath-check 
+24-10-24 12:33:18.761 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error 
+24-10-24 12:33:18.761 [http-nio-8081-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /error 
+24-10-24 12:33:48.042 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /public/heath-check 
+24-10-24 12:33:48.104 [http-nio-8081-exec-2] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Authenticated user 
+24-10-24 12:33:48.104 [http-nio-8081-exec-2] DEBUG o.s.s.w.a.w.BasicAuthenticationFilter - Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=Moulik, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN, ROLE_USER]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[ROLE_ADMIN, ROLE_USER]] 
+24-10-24 12:33:48.104 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /public/heath-check 
+24-10-24 12:33:48.106 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error 
+24-10-24 12:33:48.107 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /error 

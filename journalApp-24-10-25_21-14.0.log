@@ -1,0 +1,4 @@
+24-10-25 21:14:05.682 [scheduling-1] INFO  c.m.journalApp.service.EmailService - Email sent successfully to rohitbose210518@gmail.com 
+24-10-25 21:14:10.146 [scheduling-1] INFO  c.m.journalApp.service.EmailService - Email sent successfully to doratv2252@gmail.com 
+24-10-25 21:14:15.169 [scheduling-1] INFO  c.m.journalApp.service.EmailService - Email sent successfully to moulik@gmail.com 
+24-10-25 21:14:20.878 [scheduling-1] INFO  c.m.journalApp.service.EmailService - Email sent successfully to rohitbose210518@gmail.com 

@@ -1,0 +1,38 @@
+spring:
+  application:
+    name: Journal App
+  redis:
+    host: localhost
+    port: 6379
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/Journaldb
+      database: Journaldb
+      auto-index-creation: true
+
+  main:
+    allow-circular-references: true
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: moulikbhattacharya@gmail.com
+    password: gvls ifxk chyc kwgw
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls.enable: true
+
+server:
+  port: 8081
+
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
+
+weather:
+  api:
+    key: 91dc01c82ca67818cb38d47a717f0e0f

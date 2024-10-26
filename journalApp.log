@@ -1,0 +1,29 @@
+24-10-26 13:24:00.558 [http-nio-8081-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext 
+24-10-26 13:24:00.565 [http-nio-8081-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis] with root cause 
+java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:1062)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:336)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:339)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+24-10-26 13:24:00.593 [http-nio-8081-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error 
+24-10-26 13:24:00.595 [http-nio-8081-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext 
+24-10-26 13:24:00.689 [http-nio-8081-exec-2] DEBUG o.s.s.w.s.HttpSessionRequestCache - Saved request http://localhost:8081/error?continue to session 
+24-10-26 13:24:00.690 [http-nio-8081-exec-2] DEBUG o.s.s.w.a.DelegatingAuthenticationEntryPoint - Trying to match using RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest] 
+24-10-26 13:24:00.691 [http-nio-8081-exec-2] DEBUG o.s.s.w.a.DelegatingAuthenticationEntryPoint - No match found. Using default entry point org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint@7ebda9cd 
+24-10-26 13:24:47.786 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /public/test" 
+24-10-26 13:24:47.787 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /public/test" 
+24-10-26 13:24:47.820 [http-nio-8081-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext 
+24-10-26 13:24:47.822 [http-nio-8081-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error 
+24-10-26 13:24:47.823 [http-nio-8081-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext 
+24-10-26 13:24:47.827 [http-nio-8081-exec-3] DEBUG o.s.s.w.s.HttpSessionRequestCache - Saved request http://localhost:8081/error?continue to session 
+24-10-26 13:24:47.828 [http-nio-8081-exec-3] DEBUG o.s.s.w.a.DelegatingAuthenticationEntryPoint - Trying to match using RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest] 
+24-10-26 13:24:47.829 [http-nio-8081-exec-3] DEBUG o.s.s.w.a.DelegatingAuthenticationEntryPoint - No match found. Using default entry point org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint@7ebda9cd 

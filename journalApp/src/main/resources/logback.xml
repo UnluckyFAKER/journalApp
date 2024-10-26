@@ -1,0 +1,51 @@
+<configuration>
+
+    <!-- Console Appender: logs will be output to the console (standard output) -->
+    <appender name="myConsoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+        <!-- Encoder formats the log output -->
+        <encoder>
+            <!-- Log pattern:
+                 %d{yy-MM-dd HH:mm:ss.SSS} - timestamp
+                 [%thread] - name of the thread
+                 %-5level - log level (INFO, DEBUG, etc.)
+                 %logger{36} - logger name (truncated to 36 characters)
+                 %msg - the log message
+                 %n - new line -->
+            <pattern>%d{yy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg %n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Rolling File Appender: logs will be written to a file, with rolling policy for size and time -->
+    <appender name="myFileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- The name of the log file -->
+        <file>journalApp.log</file>
+
+        <!-- Rolling policy defines when the log file will roll over (rotate) -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <!-- File naming pattern for rolled logs:
+                 journalApp-%d{yy-MM-dd_HH-mm} - timestamp in the file name
+                 %i - index for multiple logs rolled in the same period -->
+            <fileNamePattern>journalApp-%d{yy-MM-dd_HH-mm}.%i.log</fileNamePattern>
+            <!-- Maximum size of the log file before rolling over -->
+            <maxFileSize>10MB</maxFileSize>
+            <!-- Maximum number of history files to keep -->
+            <maxHistory>10</maxHistory>
+        </rollingPolicy>
+
+        <!-- Encoder formats the log output for the file -->
+        <encoder>
+            <pattern>%d{yy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg %n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Root logger configuration:
+         level="INFO" means it logs messages of level INFO and higher (WARN, ERROR)
+         Two appenders are referenced: console and file appenders -->
+    <root level="INFO">
+        <!-- Log to the console -->
+        <appender-ref ref="myConsoleAppender" />
+        <!-- Log to the file with rolling policy -->
+        <appender-ref ref="myFileAppender" />
+    </root>
+
+</configuration>
